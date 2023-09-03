@@ -1,0 +1,16 @@
+#nasted_if_statement.py
+
+jenis_kelamin = "pria"
+umur = 20
+if(jenis_kelamin=="pria"):
+    if(umur>=25):
+        print("pria boleh menikah")
+else:
+    print("pria tidak boleh menikah")
+    
+if(jenis_kelamin=="wanita"):
+    if(umur>=20):
+        print("wanita boleh menikah")
+else:
+    print("wanita tidak boleh menikah")
+    print("jenis kelamin tidak terdaftar")
