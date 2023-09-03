@@ -1,0 +1,46 @@
+nama = str(input("masukan nama :"))
+nilai = int(input("masukan nilai :"))
+lulus = "selamat anda lulus"
+gagal = "maaf, anda gagal"
+if(nama=="joko"):
+    print("hallo joko")
+    if(nilai>=70):
+        print()
+        print(lulus)
+    else:
+        print()
+        print(gagal)
+elif(nama=="bagas"):
+    print("hallo bagas")
+    if(nilai>=70):
+        print()
+        print(lulus)
+    else:
+        print()
+        print(gagal)
+elif(nama=='jaka'):
+    print('hallo jaka')
+    if(nilai>=70):
+        print()
+        print(lulus)
+    else:
+        print()
+        print(gagal)
+elif(nama=='bagus'):
+    print('hallo bagus')
+    if(nilai>=70):
+        print()
+        print(lulus)
+    else:
+        print()
+        print(gagal)
+elif(nama=='jamal'):
+    print("hallo jamal")
+    if(nilai>=70):
+        print()
+        print(lulus)
+    else:
+        print()
+        print(gagal)
+else:
+    print("maaf, nama anda tidak terdaftar")
